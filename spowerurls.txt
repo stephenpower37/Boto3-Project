@@ -1,0 +1,2 @@
+S3 Website: http://spower980518.s3.us-east-1.amazonaws.com/index.html
+EC2 Web Page: http://3.93.247.162
