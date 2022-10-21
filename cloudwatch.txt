@@ -1,0 +1,14 @@
+CloudWatch Alarm Information: 
+
+Name: EC2_CPU_Utilization
+Description: Alarm when server CPU exceeds 60%
+Comparison Operator: GreaterThanThreshold
+Evaluation Periods: 3
+Metric Name: CPUUtilization
+Namespace: AWS/EC2
+Period: 60
+Statistic: Average
+Threshold: 60.0
+Actions: [arn:aws:automate:us-east-1:ec2:terminate]
+Dimensions: [{Name: InstanceId, Value: i-0018ec725f8e5d854}]
+Unit: Seconds
